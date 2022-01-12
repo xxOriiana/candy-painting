@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+$main-green: #79dd09 !default;
+$main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
+$main-yellow: #bdbb49 !default;
+$main-yellow-rgb-015: rgba(189, 187, 73, 0.1) !default;
+$main-red: #bd150b !default;
+$main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
+$main-blue: #0076bd !default;
+$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+
+body{
+    background: linear-gradient(-45deg,#E73C7E, #EE7752, #23A6D5, #bdbb49);
+}
+/* ================== CSS BTN' NAV-BAR-MENU ================== */
+
+#ul-iconos-sm{
+    margin: 0;
+    font-size: 20px;
+    color: black;
+}
+
+#li-css-nav{
+    color: black;
+}
+#li-css-nav:hover{
+    background: rgba(240, 239, 236, 0.103);
+}
+
+
+#btn-css{
+    font-size: 13px;
+}#btn-css:hover{
+    /* background: #e9e5ec; */
+    font-size: 15px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+
+
+#menu-css{
+    border-bottom: 1px solid rgba(194, 165, 165, 0.342);
+    padding-left: 0;
+    /* background: #99FEFF; */
+}
+
+
+#ul-icon-f{
+    color:  #3b5998;
+}
+#ul-icon-t{
+    color: #1DA1F2;
+}
+#ul-icon-i{
+    color: #e0c9c9;
+}
+
+
+.contenedor{
+    position: relative;
+    text-align: center;
+}
+
+.texto-encima{
+    margin-top: 100px;
+}
+
+#h1-img{
+    /* font-family: 'Cookie', cursive; */
+    font-size: calc(5em + 4vw)
+}
+/* @media screen and (max-width: 600px) {
+    #h1-img {
+      font-size: 60px;
+    }
+  } */
+
+#candy-txt{
+    /* color: red; */
+    /* -webkit-text-fill-color: red;
+    -webkit-text-stroke:2px; */
+    color: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5);
+}
+
+
+/* ==================  CSS OUR-TEAM    ================== */
+
+#caja-service{
+    width: 250px;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.116);
+    backdrop-filter: blur(20px);
+    border: solid 1px rgba(255, 255, 255, 0.158);
+    margin: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 32px -8px rgba(255,0,255,0.48);
+    -moz-box-shadow: 0px 0px 32px -8px rgba(255,0,255,0.48);
+    box-shadow: 0px 0px 32px -8px rgba(255,0,255,0.48);
+}
+#img-service{
+    position: relative;
+    left: 24%;
+    top: 20px;
+    border-radius: 50%;
+}
+
+
+.icon-team-box{
+    font-size: 30px;
+    color: rgb(253, 219, 225);
+}
+.icon-team-box:hover{
+    color: rgba(0, 0, 0, 0.692);
+    transition: 0.4s;
+}
+#caja-service:hover{
+    background: transparent;
+    width: 252px;
+    transition: 0.3s;
+}
+
+
+/* ================== CSS SERVICES ================== */
+
+#h1-services{
+    margin-top: 80PX;
+    margin-bottom: 50px;
+}
+
+#card-painting{
+    background: transparent;
+}
+
+
+/* ================== CSS BTN'S FOOTER ================== */
+
+#btn-f{
+    background: #3b5998;
+    color: white;
+} #btn-f:hover{
+    background: pink;
+    color: black;
+}
+
+
+#btn-q{
+    background: rgb(124, 120, 120);
+    color: white;
+} #btn-q:hover{
+    background: pink;
+    color: black;
+}
+
+#btn-t{
+    background: #1DA1F2;
+    color: white;
+} #btn-t:hover{
+    background: pink;
+    color: black;
+}
+
+
+#btn-i{
+    background: #E1306C;
+    color: white;
+} #btn-i:hover{
+    background: pink;
+    color: black;
+}
+#footer{
+    /* background: #00fbff3b; */
+    background: rgba(0, 0, 0, 0.089);
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+a, a:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+#pageHeaderTitle {
+	margin: 2rem 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+/* Cards */
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+
+	&.dark {
+		background-color: #18151f;
+	}
+	&.light {
+		background-color: #e1e5ea;
+	}
+	
+	.t-dark {
+		color: #18151f;
+	}
+	
+  a {
+    color: inherit;
+  }
+	
+	h1,	.h1 {
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	
+	.small {
+		font-size: 80%;
+	}
+
+  .postcard__title {
+    font-size: 1.75rem;
+  }
+
+  .postcard__img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .postcard__img_link {
+    display: contents;
+  }
+
+  .postcard__bar {
+    width: 50px;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #424242;
+    transition: width 0.2s ease;
+  }
+
+  .postcard__text {
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .postcard__preview-txt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+  }
+
+  .postcard__tagbox {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+		padding: 0;
+    justify-content: center;
+
+    .tag__item {
+      display: inline-block;
+      background: rgba(83, 83, 83, 0.4);
+      border-radius: 3px;
+      padding: 2.5px 10px;
+      margin: 0 5px 5px 0;
+      cursor: default;
+      user-select: none;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background: rgba(83, 83, 83, 0.8);
+      }
+    }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(-70deg, #424242, transparent 50%);
+    opacity: 1;
+    border-radius: 10px;
+  }
+
+  &:hover .postcard__bar {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .postcard {
+    flex-wrap: inherit;
+
+    .postcard__title {
+      font-size: 2rem;
+    }
+
+    .postcard__tagbox {
+      justify-content: start;
+    }
+
+    .postcard__img {
+      max-width: 300px;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+      -webkit-transition: transform 0.3s ease;
+      -moz-transition: transform 0.3s ease;
+      -ms-transition: transform 0.3s ease;
+      -o-transition: transform 0.3s ease;
+}
+
+    .postcard__text {
+      padding: 3rem;
+      width: 100%;
+    }
+
+    .media.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #18151f;
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+
+    &:hover .postcard__img {
+      transform: scale(1.1);
+    }
+
+    &:nth-child(2n+1) {
+      flex-direction: row;
+    }
+
+    &:nth-child(2n+0) {
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(2n+1) .postcard__text::before {
+      left: -12px !important;
+      transform: rotate(4deg);
+    }
+
+    &:nth-child(2n+0) .postcard__text::before {
+      right: -12px !important;
+      transform: rotate(-4deg);
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+		.postcard__text {
+      padding: 2rem 3.5rem;
+    }
+		
+		.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+	
+  .postcard.dark {
+		.postcard__text:before {
+			background: #18151f;
+		}
+  }
+  }
+
+
+/* COLORS */
+.postcard .postcard__tagbox .green.play:hover {
+	background: $main-green;
+	color: black;
+}
+.green .postcard__title:hover {
+	color: $main-green;
+}
+.green .postcard__bar {
+	background-color: $main-green;
+}
+.green::before {
+	background-image: linear-gradient(
+		-30deg,
+		$main-green-rgb-015,
+		transparent 50%
+	);
+}
+.green:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, $main-green-rgb-015, transparent 50%);
+}
+
+.postcard .postcard__tagbox .blue.play:hover {
+	background: $main-blue;
+}
+.blue .postcard__title:hover {
+	color: $main-blue;
+}
+.blue .postcard__bar {
+	background-color: $main-blue;
+}
+.blue::before {
+	background-image: linear-gradient(-30deg, $main-blue-rgb-015, transparent 50%);
+}
+.blue:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, $main-blue-rgb-015, transparent 50%);
+}
+
+.postcard .postcard__tagbox .red.play:hover {
+	background: $main-red;
+}
+.red .postcard__title:hover {
+	color: $main-red;
+}
+.red .postcard__bar {
+	background-color: $main-red;
+}
+.red::before {
+	background-image: linear-gradient(-30deg, $main-red-rgb-015, transparent 50%);
+}
+.red:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, $main-red-rgb-015, transparent 50%);
+}
+
+.postcard .postcard__tagbox .yellow.play:hover {
+	background: $main-yellow;
+	color: black;
+}
+.yellow .postcard__title:hover {
+	color: $main-yellow;
+}
+.yellow .postcard__bar {
+	background-color: $main-yellow;
+}
+.yellow::before {
+	background-image: linear-gradient(
+		-30deg,
+		$main-yellow-rgb-015,
+		transparent 50%
+	);
+}
+.yellow:nth-child(2n)::before {
+	background-image: linear-gradient(
+		30deg,
+		$main-yellow-rgb-015,
+		transparent 50%
+	);
+}
+
+@media screen and (min-width: 769px) {
+	.green::before {
+		background-image: linear-gradient(
+			-80deg,
+			$main-green-rgb-015,
+			transparent 50%
+		);
+	}
+	.green:nth-child(2n)::before {
+		background-image: linear-gradient(
+			80deg,
+			$main-green-rgb-015,
+			transparent 50%
+		);
+	}
+
+	.blue::before {
+		background-image: linear-gradient(
+			-80deg,
+			$main-blue-rgb-015,
+			transparent 50%
+		);
+	}
+	.blue:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, $main-blue-rgb-015, transparent 50%);
+	}
+
+	.red::before {
+		background-image: linear-gradient(-80deg, $main-red-rgb-015, transparent 50%);
+	}
+	.red:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, $main-red-rgb-015, transparent 50%);
+	}
+	
+	.yellow::before {
+		background-image: linear-gradient(
+			-80deg,
+			$main-yellow-rgb-015,
+			transparent 50%
+		);
+	}
+	.yellow:nth-child(2n)::before {
+		background-image: linear-gradient(
+			80deg,
+			$main-yellow-rgb-015,
+			transparent 50%
+		);
+	}
+}
